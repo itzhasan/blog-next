@@ -1,0 +1,57 @@
+.input{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    padding-top: 40px;
+}
+.input input{
+   width: 650px;
+   border: none;
+   border: 2px solid #EEEEEE;
+   border-radius: 5px;
+   height: 42px;
+   font-size: 20px;
+   color: #666666;
+   align-items: center;
+}
+.input button{
+  width: 250px;
+  height: 42;
+  background-color: blue;
+  color: white;
+  border: none;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+    height: 50px;
+}
+.item p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.item button{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.total span{
+    color: #666666;
+}
