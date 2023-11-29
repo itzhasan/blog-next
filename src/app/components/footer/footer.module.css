@@ -15,12 +15,6 @@
 .content li{
     list-style: none;
 }
-.header{
-    border-bottom: 1px solid black;
-    height: 60px;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background-color: #fff;
+.footer{
+    background-color: #eee;
 }

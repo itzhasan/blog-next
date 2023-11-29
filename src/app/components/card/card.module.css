@@ -1,0 +1,32 @@
+.card .img{
+    height:200px ;
+    background-color: #ccc;
+    position: relative;
+}
+
+
+.card .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.card .subtitle{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.card .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.card .footer a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.card .footer span{
+    color: #ccc;
+    font-size: 16px;
+}

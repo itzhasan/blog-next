@@ -1,35 +1,44 @@
 import React from "react";
-import styles from "./Header.module.css";
+import styles from "./footer.module.css";
 import Container from "../container/container";
 import Link from "next/link";
+import { FaFacebookSquare } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
+import { FaSquareXTwitter } from "react-icons/fa6";
 
-function Header() {
+function Footer() {
   let colorH = "black"; 
   let colorA = "black";
 
 
   return (
-    <div className={styles.header}>
+    <div className={styles.footer}>
       <Container>
         <div className={styles.nav}>
           <div className={styles.logo}>
-            <h1>Aon blog</h1>
+            <h3>All Rights Reserved - Aon2023</h3>
           </div>
           <div>
             <ul className={styles.content}>
               <li>
                 <Link href="/">
-                  <span style={{ color: colorA }}>Home</span>
+                  <span style={{ color: colorA }}>
+                    <FaFacebookSquare/>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/about">
-                  <span style={{ color: colorA }}>About</span>
+                  <span style={{ color: colorA }}>
+                    <BsInstagram/>
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link href="/">
-                  <span style={{ color: colorA }}>Help</span>
+                  <span style={{ color: colorA }}>
+                    <FaSquareXTwitter/>
+                  </span>
                 </Link>
               </li>
             </ul>
@@ -40,4 +49,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Footer;
